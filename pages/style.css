@@ -63,12 +63,12 @@ h4 {
     font-size: 89px;
 }
 
-div:nth-child(1) {
+#parallaxOne {
     background-position: center;
     background-size: cover;
 }
 
-div:nth-child(3) {
+#parallaxTwo {
     height: 55vh;
     background-attachment: fixed; /* se queda estático en el fondo */
     background-position: top;
