@@ -17,7 +17,7 @@ const secondImg = [
 ];
 
 // first parallax
-window.addEventListener('scroll', () => {
+document.addEventListener('scroll', () => {
     let offset = window.scrollY;
     firstParallax.style.backgroundPositionY = offset * 0.7 + 'px';
 });
@@ -40,7 +40,7 @@ document.addEventListener('pointermove', (e) => {
         cursor.style.display = 'none';
     }
     clearTimeout(timeout);
-    timeout = setTimeout(mouseStopped, 1200);
+    timeout = setTimeout(mouseStopped, 7000);
 });
 
 document.addEventListener('pointerout', () => {
