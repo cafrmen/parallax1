@@ -74,3 +74,14 @@ h4 {
     background-position: top;
     background-size: cover;
 }
+
+@media screen and (max-width: 890px) {
+    .first {
+        display: none;
+        visibility: hidden;
+    }
+    #parallaxTwo {
+        display: none;
+        visibility: hidden;
+    }
+}
